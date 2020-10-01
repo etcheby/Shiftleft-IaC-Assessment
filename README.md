@@ -1,4 +1,4 @@
-# cloudguard-iac-noncompliant-terraform
+# CloudGuard Shiftleft Iac-Assessment Non Compliant Terraform Template
 
 ## Description
 
