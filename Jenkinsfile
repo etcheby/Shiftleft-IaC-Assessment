@@ -13,7 +13,7 @@ pipeline {
     stage('Shifleft SAST Terraform IaC-Assessment') {
       steps {
         echo 'Running Shiftleft Iac Assessment'
-        sh 'shiftleft iac-assessment -D -p IaC-Assessment/aws -r -64 -s critical |jq'
+        sh 'shiftleft iac-assessment -D -p IaC-Assessment/ -r -64 -s critical |jq'
       }
     }
 
